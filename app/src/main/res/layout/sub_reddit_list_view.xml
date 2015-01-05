@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:minHeight="25dp"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+     <TextView
+        android:id="@+id/sub_reddit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="SubReddit Text"
+       />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/sub_reddit_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:textSize="12sp"
+        android:text="Author"/>
+
+    <TextView
+        android:id="@+id/sub_reddit_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="12sp"
+        android:text="Comments"/>
+        </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_weight="0.5"
+    android:gravity="right"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/sub_reddit_thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        />
+
+</LinearLayout>
+</LinearLayout>
