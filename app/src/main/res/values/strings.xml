@@ -10,5 +10,9 @@
     <string name="action_top">Top</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="title_activity_sub_reddit_post">SubRedditPost</string>
+    <string name="web_view_activity">WebViewActivity</string>
 
 </resources>
