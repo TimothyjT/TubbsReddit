@@ -18,10 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".WebViewActivity"
-            android:label="@string/title_activity_web_view" >
+            android:name="com.android.finalproject.tubbsreddit.WebViewActivity"
+            android:label="@string/web_view_activity"
+            android:parentActivityName=".MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
+
     </application>
 
 </manifest>
