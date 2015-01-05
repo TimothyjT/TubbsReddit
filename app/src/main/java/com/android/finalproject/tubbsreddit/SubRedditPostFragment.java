@@ -39,7 +39,7 @@ public  class SubRedditPostFragment extends Fragment {
     private String mTitle;
     private ImageView mImageView;
     private String mUrl;
-
+//test
 
 
 
